@@ -1,0 +1,23 @@
+{
+  "name": "planb-labs-lightning-polar-exercises",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "description": "Understanding the Lightning Network through coding exercises using Polar to generate a local Lightning Network",
+  "main": "index.js",
+  "author": "Fanis Michalakis",
+  "license": "MIT",
+  "scripts": {
+    "example": "tsx src/example/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "lightning": "10.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "4.19.3",
+    "typescript": "5.7.3"
+  },
+  "packageManager": "pnpm@9.15.5+sha512.845196026aab1cc3f098a0474b64dfbab2afe7a1b4e91dd86895d8e4aa32a7a6d03049e2d0ad770bbe4de023a7122fb68c1a1d6e0d033c7076085f9d5d4800d4"
+}
