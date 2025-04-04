@@ -17,6 +17,8 @@ Our goal here is to show how we can give instructions to a Lightning Node to onl
 - Bob, which will route payments (and to which are script will give instructions),
 - Carol, which will send or receive payments as well.
 
+We will use LND nodes, all connected to the same Bitcoin node.
+
 <details>
 <summary>Click to see a screenshot of what your network could look like.</summary>
 
@@ -25,5 +27,9 @@ Our goal here is to show how we can give instructions to a Lightning Node to onl
 Note that yours can be a bit different, that's okay as long as there are at least 3 nodes forming a route. Have fun!
 
 </details>
+
+To get the connection details to a node, simply select the node and open the "Connect" tab on the menu on the right.
+
+To run the script in `index.js`, run `pnpm example` in the terminal at the root of this repository. Alternatively, you can run `tsx src/example/index.ts` - it's the same thing.
 
 Finally, our exercise require you to send payments between Alice and Carol. Since can be done directly in Polar's interface, by right-clicking on a node and selecting "Create Invoice" or "Pay Invoice".
