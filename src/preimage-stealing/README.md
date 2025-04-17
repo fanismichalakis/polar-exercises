@@ -15,3 +15,11 @@ Design a Polar network and write a script to illustrate this scenario. You can u
 ### Hints
 
 In the `lightning` package, `subscribeToForwards` shows the preimage (a.k.a. secret as a HTLC is settled), and `subscribeToForwardRequests` let's you intercept HTLCs and decide whether to forward them, fail them, or settle them on the spot.
+
+### Solution
+
+You can find a proposed solution in [solution.ts](solution.ts). To run it, you'll need to:
+
+- create an appropriate Polar network
+- create a `.env` file with your network's configuration
+- run `tsx src/preimage-stealing/solution.ts` in the terminal.
