@@ -8,7 +8,8 @@
   "author": "Fanis Michalakis",
   "license": "MIT",
   "scripts": {
-    "example": "tsx src/example/index.ts"
+    "example": "tsx src/example/index.ts",
+    "preimage-stealing": "tsx src/preimage-stealing/index.ts"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
